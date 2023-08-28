@@ -1,0 +1,76 @@
+.buildfor {
+    &__cards_mobile {
+        display: none;
+
+        @media(max-width: 1280px) {
+            display: block;
+        }
+    }
+
+    &__cards {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+
+        @media(max-width: 1280px) {
+            // grid-template-columns: repeat(3, 1fr);
+            // gap: 15px;
+            display: none;
+        }
+
+        @media(max-width: 900px) {}
+    }
+
+    &__card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        width: 310px;
+        background: $card-bg;
+        border-radius: 40px;
+        padding: 31px 30px;
+    }
+
+    &__card_img {
+        width: 219px;
+        height: 219px;
+        margin-bottom: 20px;
+    }
+
+    &__card_title {
+        padding-bottom: 18px;
+        margin-top: 20px;
+        border-bottom: 1px solid $card-border;
+    }
+
+    &__card_description {
+        margin-top: 20px;
+    }
+
+    &__card_btn {
+        font-size: 12px;
+        font-weight: 700;
+        color: $violet;
+        background: $btn-bg;
+        border-radius: 40px;
+        padding: 16px 40px;
+        margin-top: 35px;
+
+        @media(max-width: 600px) {
+            margin-right: 0;
+            padding: 17px 68px;
+        }
+    }
+}
+
+.buildfor-swiper-btn {
+
+    width: 60px;
+    height: 60px;
+
+    &::after {
+        font-size: 0;
+    }
+}

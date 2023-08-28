@@ -1,0 +1,125 @@
+.footer {
+    position: relative;
+    padding-bottom: 30px;
+
+    &__bg {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+    }
+
+    &__row {
+        @media(max-width: 768px) {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
+
+.footer__logo {
+    display: flex;
+
+    @media(max-width: 768px) {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.footer__nav {
+    &-list {
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+
+        @media(max-width: 768px) {
+            display: none;
+        }
+    }
+
+    &-link {
+        font-size: 16px;
+        font-weight: 700;
+
+        &:active,
+        &:hover,
+        &:focus {
+            color: $white;
+        }
+    }
+
+}
+
+.footer__faq {
+    &-list {
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+    }
+
+    &-link {
+        font-size: 16px;
+        font-weight: 700;
+
+        &:active,
+        &:hover,
+        &:focus {
+            color: $white;
+        }
+    }
+
+    @media(max-width: 768px) {
+        display: none;
+    }
+}
+
+.footer__social {
+    display: flex;
+    flex-direction: column;
+
+    &-title {
+        font-size: 16px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    &-box {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        column-gap: 10px;
+        row-gap: 10px;
+        margin-bottom: 20px;
+
+        @media(max-wdith: 390px) {
+            margin-bottom: 30px;
+        }
+    }
+
+    &-btn {
+        font-size: 12px;
+        font-weight: 700;
+        color: $violet;
+        background: $btn-bg;
+        border-radius: 40px;
+        padding: 17px 0px;
+
+        @media(max-width: 600px) {
+            padding: 17px 68px;
+        }
+
+        @media(max-width: 945px) {
+            padding: 17px 50px;
+        }
+    }
+
+    @media(max-width: 768px) {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        margin-top: 40px;
+    }
+}

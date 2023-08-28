@@ -1,0 +1,37 @@
+.steps {
+    &__swiper {
+        display: none;
+
+        @media(max-width: 900px) {
+            display: block;
+            height: 330px;
+        }
+    }
+
+    &__grid {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        position: relative;
+
+        @media(max-width: 900px) {
+            display: none;
+        }
+    }
+
+    &__bg {
+        min-width: 100%;
+
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+
+    &__img {
+        width: 198px;
+        height: 198px;
+        margin-bottom: 25px;
+    }
+}

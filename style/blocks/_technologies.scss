@@ -1,0 +1,23 @@
+.technologies {
+    &__items {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        @media(max-width: 1024px) {
+            display: none;
+        }
+    }
+
+    &__item {
+        width: 250px;
+    }
+
+    &__swiper {
+        display: none;
+
+        @media(max-width: 1024px) {
+            display: block;
+        }
+    }
+}

@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Swiper CSS-->
+    <link rel="stylesheet" href="./style/swiper/swiper-bundle.min.css" />
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="./style/style.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Icon -->
+    <link rel="icon" href="./img/main/Logo.svg">
+
+    <title>Hydra</title>
+</head>
+
+<body class="body">
+
+    <!-- Header -->
+    <header class="header margin">
+        <div class="container-xl">
+            <picture>
+                <source class="header__bg-mobile" srcset="./img/main/main-bg-mobile.png" media="(max-width: 600px)">
+
+                <img class="header__bg" src="./img/main/main-bg-lines.png" alt="">
+            </picture>
+
+            <!-- Navbar -->
+            <nav class="my-nav navbar navbar-expand-lg navbar-dark bg-none">
+                <a class="navbar-brand" href="#">
+                    <img class="my-nav-logo" src="./img/main/Logo.svg" alt="logo">
+                </a>
+
+                <button class="mobile-btn">
+                    <div class="mobile-btn-1"></div>
+                    <div class="mobile-btn-2"></div>
+                    <div class="mobile-btn-3"></div>
+                </button>
+
+                <ul class="my-nav-list collapse navbar-collapse ms-auto">
+                    <li class="nav-item">
+                        <a class="my-nav-link subtitle-sm nav-link" href="#about">ABOUT</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="my-nav-link subtitle-sm nav-link" href="#services">SERVICES</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="my-nav-link subtitle-sm nav-link" href="#technologies">TECHNOLOGIES</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="my-nav-link subtitle-sm nav-link" href="#howto">HOW TO</a>
+                    </li>
+                </ul>
+
+                <ul class="my-nav-btns collapse navbar-collapse ms-auto">
+                    <button class="my-nav-btn-contact">CONTACT US</button>
+                    <button class="my-nav-btn-join">JOIN HYDRA</button>
+                </ul>
+
+                <!-- Blackout -->
+                <div class="blackout"></div>
+
+                <!-- Moile Nav -->
+                <ul class="mobile-nav">
+                    <img class="mobile-nav-img mobile-menu-btn" src="./img/icons/close.svg" alt="close">
+
+                    <li class="nav-item">
+                        <a class="mobile-nav-link m-link" href="#about">ABOUT</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="mobile-nav-link m-link" href="#services">SERVICES</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="mobile-nav-link m-link" href="#technologies">TECHNOLOGIES</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="mobile-nav-link m-link" href="#howto">HOW TO</a>
+                    </li>
+
+                    <ul class="mobile-nav-btns navbar-nav">
+                        <li class="nav-item">
+                            <button class="mobile-nav-btn-contact m-link">Contact Us</button>
+                        </li>
+
+                        <li class="nav-item">
+                            <button class="mobile-nav-btn-join m-link">Join Hydra</button>
+                        </li>
+                    </ul>
+                </ul>
+            </nav>
+
+            <!-- Content -->
+            <div class="header-cont">
+                <!-- Desktop -->
+                <div class="header-cont__row">
+                    <div class="row align-items-center">
+                        <div class="col">
+                            <div class="header-cont__txt">
+                                <h1 class="header-cont__title">
+                                    <span class="header-cont__title-contrast">Dive</span> Into The Depths<br>
+                                    Of <span class="header-cont__title-contrast">Virtual Reality</span>
+                                </h1>
+
+                                <p class="header-cont__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit,
+                                    sed do eiusmod tempor incididunt ut labore et dolore
+                                    nisl tincidunt eget. Lectus mauris eros in vitae .
+                                </p>
+
+                                <div class="header-cont__btn_box">
+                                    <button class="header-cont__btn">BUILD YOUR WORLD</button>
+                                    <img class="header-cont__icon" src="./img/icons/shape-main-move.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="header-cont__picture text-end">
+                                <img class="header-cont__img" src="./img/main/main-bg.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mobile -->
+                <div class="header-cont__mobile">
+                    <div class="row flex-column justify-content-center align-items-center">
+                        <div class="col">
+                            <div class="header-cont__picture text-end">
+                                <img class="header-cont__img" src="./img/main/main-bg.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="header-cont__txt">
+                                <h1 class="header-cont__title">
+                                    <span class="header-cont__title-contrast">Dive</span> Into The Depths<br>
+                                    Of <span class="header-cont__title-contrast">Virtual Reality</span>
+                                </h1>
+
+                                <div class="header-cont__btn_box">
+                                    <button class="header-cont__btn">BUILD YOUR WORLD</button>
+                                    <img class="header-cont__icon" src="./img/icons/shape-main-move.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FeedBack Desktop -->
+            <div class="header-feedback">
+                <div class="header-feedback__location header-feedback__stroke d-flex align-items-center">
+                    <img class="header-feedback__icon" src="./img/icons/location.svg" alt="location">
+
+                    <div class="header-feedback__txt">
+                        <div class="header-feedback__title h4">Pay Us a Visit</div>
+                        <span class="header-feedback__subtitle">Union St, Seattle, WA 98101,<br
+                                class="header-feedback__br">United States</span>
+                    </div>
+                </div>
+
+                <div class="header-feedback__phone header-feedback__stroke d-flex align-items-center">
+                    <img class="header-feedback__icon" src="./img/icons/phone.svg" alt="phone">
+
+                    <div class="header-feedback__txt">
+                        <div class="header-feedback__title h4">Give Us a Call</div>
+                        <span class="header-feedback__subtitle">(110) 1111-1010</span>
+                    </div>
+                </div>
+
+                <div class="header-feedback__message d-flex align-items-center">
+                    <img class="header-feedback__icon" src="./img/icons/email.svg" alt="email">
+
+                    <div class="header-feedback__txt">
+                        <div class="header-feedback__title h4">Send Us a Message</div>
+                        <span class="header-feedback__subtitle">Contact@HydraVTech.com</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FeedBack Mobile -->
+            <div class="feedback-swiper">
+                <div class="swiper feedbackSwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide feedback-swiper__item">
+                            <img class="feedback-swiper__icon" src="./img/icons/location.svg" alt="location">
+
+                            <div class="feedback-swiper__txt">
+                                <div class="feedback-swiper__title h4">Pay Us a Visit</div>
+                                <span class="feedback-swiper__subtitle">Union St, Seattle, WA 98101,<br
+                                        class="feedback-swiper__br">United
+                                    States</span>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide feedback-swiper__item">
+                            <img class="feedback-swiper__icon" src="./img/icons/email.svg" alt="email">
+
+                            <div class="feedback-swiper__txt">
+                                <div class="feedback-swiper__title h4">Send Us a Message</div>
+                                <span class="feedback-swiper__subtitle">Contact@HydraVTech.com</span>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide feedback-swiper__item">
+                            <img class="feedback-swiper__icon" src="./img/icons/phone.svg" alt="phone">
+
+                            <div class="feedback-swiper__txt">
+                                <div class="feedback-swiper__title h4">Give Us a Call</div>
+                                <span class="feedback-swiper__subtitle">(110) 1111-1010</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main -->
+    <main class="main">
+        <!-- Introduction / About -->
+        <section class="introduction margin">
+            <div class="container-xl">
+                <!-- introduction Content -->
+                <div class="row margin">
+                    <!-- Desktop -->
+                    <div class="introduction__desktop section-style__desktop">
+                        <div class="row align-items-center">
+                            <div class="col">
+                                <div class="introduction__top">
+                                    <h2 class="introduction__title h2">INTRODUCTION</h2>
+                                    <div class="d-flex align-items-center">
+                                        <h2 class="introduction__subtitle h2 section-style__subtitle">TO HYDRA VR</h2>
+                                        <img class="introduction__line section-style__line"
+                                            src="./img/icons/section-lines.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="introduction__bottom">
+                                    <p class="introduction__description section-style__description">Vitae sapien
+                                        pellentesque habitant morbi
+                                        tristique
+                                        senectus et netus et. Feugiat
+                                        nibh sed pulvinar proin gravida hendrerit lectus. Mi sit amet mauris commodo
+                                        quis imperdiet massa tincidunt nunc. Viverra aliquet eget sit amet tellus.
+                                        Ornare
+                                        lectus sit amet est placerat in. Lectus magna fringilla urna porttitor rhoncus
+                                        vitae.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Mobile -->
+                    <div class="introduction__mobile section-style__mobile">
+                        <div class="row">
+                            <div class="introduction__mobile_txt d-flex flex-column align-items-center"></div>
+                            <h2 class="introduction__mobile_title h2 text-center">INTRODUCTION</h2>
+                            <h2 class="introduction__mobile_subtitle h2 text-center section-style__mobile_subtitle">TO
+                                HYDRA VR</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- About Content -->
+                <div class="about">
+                    <img class="about__bg" src="./img/about/about-bg-lines.png" alt="">
+
+                    <div class="row about__row">
+                        <div class="col">
+                            <div class="about__picture">
+                                <img class="about__img" src="./img/about/about-bg.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="about__txt">
+                                <h2 class="about__title h2">ABOUT</h2>
+                                <h2 class="about__subtitle h2">HYDRA VR</h2>
+                                <p class="about__description">
+                                    Eget mi proin sed libero enim sed faucibus turpis. Nisl rhoncus mattis rhoncus
+                                    urna neque viverra justo. Vivamus at augue eget arcu dictum. Ultrices gravida
+                                    dictum fusce ut placerat orci. Aenean et tortor at risus viverra adipiscing at in.
+                                    Mattis aliquam faucibus purus in massa. Est placerat in egestas erat imperdiet
+                                    sed. Consequat semper viverra nam libero justo laoreet sit amet. Aliquam
+                                    etiam erat velit scelerisque in dictum non consectetur a. Laoreet sit amet
+                                    cursus sit amet. Vel eros donec ac odio tempor orci dapibus. Sem nulla pha
+                                    retra diam sit amet nisl suscipit adipiscing bibendum. Leo a diam sollicitudi
+                                    n tempor.
+                                </p>
+
+                                <button class="about__btn">LET'S GET IN TOUCH</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Build For -->
+        <section class="buildfor margin">
+            <div class="container-xl">
+                <div class="row margin">
+                    <!-- Desktop -->
+                    <div class="buildfor__desktop section-style__desktop">
+                        <div class="row align-items-center">
+                            <div class="col">
+                                <div class="buildfor__top">
+                                    <h2 class="buildfor__title h2">WHY BUILD</h2>
+                                    <div class="d-flex align-items-center">
+                                        <h2 class="buildfor__subtitle h2 section-style__subtitle">WITH HYDRA?</h2>
+                                        <img class="buildfor__line section-style__line"
+                                            src="./img/icons/section-lines.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="buildfor__bottom">
+                                    <p class="buildfor__description section-style__description">
+                                        Vitae sapien pellentesque habitant morbi
+                                        tristique senectus et netus et. Feugiat
+                                        nibh sed pulvinar proin gravida hendrerit lectus. Mi sit amet mauris commodo
+                                        quis imperdiet massa tincidunt nunc. Viverra aliquet eget sit amet tellus.
+                                        Ornare
+                                        lectus sit amet est placerat in. Lectus magna fringilla urna porttitor rhoncus
+                                        vitae.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Mobile -->
+                    <div class="introduction__mobile section-style__mobile">
+                        <div class="row">
+                            <div class="introduction__mobile_txt d-flex flex-column align-items-center"></div>
+                            <h2 class="introduction__mobile_title h2 text-center">WHY BUILD</h2>
+                            <h2 class="introduction__mobile_subtitle h2 text-center section-style__mobile_subtitle">WITH
+                                HYDRA?</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Build Fro Cards Desktop -->
+                <div class="buildfor__cards">
+                    <div class="buildfor__card">
+                        <img class="buildfor__card_img" src="./img/build/build-1.png" alt="">
+                        <h4 class="buildfor__card_title h4">SIMULATION</h4>
+                        <p class="buildfor__card_description text-center">
+                            Vitae sapien pellentesque habitant morbi
+                            nunc. Viverra aliquet porttitor rhoncus
+                            libero justo laoreet sit amet vitae.
+                        </p>
+                        <button class="buildfor__card_btn">TRY IT NOW</button>
+                    </div>
+
+                    <div class="buildfor__card">
+                        <img class="buildfor__card_img" src="./img/build/build-2.png" alt="">
+                        <h4 class="buildfor__card_title h4">EDUCATION</h4>
+                        <p class="buildfor__card_description text-center">
+                            Vitae sapien pellentesque habitant morbi
+                            nunc. Viverra aliquet porttitor rhoncus
+                            libero justo laoreet sit amet vitae.
+                        </p>
+                        <button class="buildfor__card_btn">TRY IT NOW</button>
+                    </div>
+
+                    <div class="buildfor__card">
+                        <img class="buildfor__card_img" src="./img/build/build-3.png" alt="">
+                        <h4 class="buildfor__card_title h4">SELF-CARE</h4>
+                        <p class="buildfor__card_description text-center">
+                            Vitae sapien pellentesque habitant morbi
+                            nunc. Viverra aliquet porttitor rhoncus
+                            libero justo laoreet sit amet vitae.
+                        </p>
+                        <button class="buildfor__card_btn">TRY IT NOW</button>
+                    </div>
+
+                    <div class="buildfor__card">
+                        <img class="buildfor__card_img" src="./img/build/build-4.png" alt="">
+                        <h4 class="buildfor__card_title h4">OUTDOOR</h4>
+                        <p class="buildfor__card_description text-center">
+                            Vitae sapien pellentesque habitant morbi
+                            nunc. Viverra aliquet porttitor rhoncus
+                            libero justo laoreet sit amet vitae.
+                        </p>
+                        <button class="buildfor__card_btn">TRY IT NOW</button>
+                    </div>
+                </div>
+
+                <!-- Build Fro Cards Mobile -->
+                <div class="swiper buildforSwiper buildfor__cards_mobile">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide buildfor__card">
+                            <img class="buildfor__card_img" src="./img/build/build-1.png" alt="">
+                            <h4 class="buildfor__card_title h4">SIMULATION</h4>
+                            <p class="buildfor__card_description text-center">
+                                Vitae sapien pellentesque habitant morbi
+                                nunc. Viverra aliquet porttitor rhoncus
+                                libero justo laoreet sit amet vitae.
+                            </p>
+                            <button class="buildfor__card_btn">TRY IT NOW</button>
+                        </div>
+
+                        <div class="swiper-slide buildfor__card">
+                            <img class="buildfor__card_img" src="./img/build/build-2.png" alt="">
+                            <h4 class="buildfor__card_title h4">EDUCATION</h4>
+                            <p class="buildfor__card_description text-center">
+                                Vitae sapien pellentesque habitant morbi
+                                nunc. Viverra aliquet porttitor rhoncus
+                                libero justo laoreet sit amet vitae.
+                            </p>
+                            <button class="buildfor__card_btn">TRY IT NOW</button>
+                        </div>
+
+                        <div class="swiper-slide buildfor__card">
+                            <img class="buildfor__card_img" src="./img/build/build-3.png" alt="">
+                            <h4 class="buildfor__card_title h4">SELF-CARE</h4>
+                            <p class="buildfor__card_description text-center">
+                                Vitae sapien pellentesque habitant morbi
+                                nunc. Viverra aliquet porttitor rhoncus
+                                libero justo laoreet sit amet vitae.
+                            </p>
+                            <button class="buildfor__card_btn">TRY IT NOW</button>
+                        </div>
+
+                        <div class="swiper-slide buildfor__card">
+                            <img class="buildfor__card_img" src="./img/build/build-4.png" alt="">
+                            <h4 class="buildfor__card_title h4">OUTDOOR</h4>
+                            <p class="buildfor__card_description text-center">
+                                Vitae sapien pellentesque habitant morbi
+                                nunc. Viverra aliquet porttitor rhoncus
+                                libero justo laoreet sit amet vitae.
+                            </p>
+                            <button class="buildfor__card_btn">TRY IT NOW</button>
+                        </div>
+                    </div>
+                    <div class="swiper-button-prev buildfor-swiper-btn">
+                        <img src="./img/icons/swiper-prev.svg" alt="">
+                    </div>
+                    <div class="swiper-button-next buildfor-swiper-btn">
+                        <img src="./img/icons/swiper-next.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technologies -->
+        <section class="technologies margin">
+            <div class="container-xl">
+                <div class="technologies__items">
+                    <img class="technologies__item" src="./img/technologies/tech1.svg" alt="">
+                    <img class="technologies__item" src="./img/technologies/tech2.svg" alt="">
+                    <img class="technologies__item" src="./img/technologies/tech3.svg" alt="">
+                    <img class="technologies__item" src="./img/technologies/tech4.svg" alt="">
+                </div>
+
+                <div class="swiper technologiesSwiper technologies__swiper">
+                    <div class="swiper-wrapper">
+                        <img class="technologies__item swiper-slide" src="./img/technologies/tech1.svg" alt="">
+                        <img class="technologies__item swiper-slide" src="./img/technologies/tech2.png" alt="">
+                        <img class="technologies__item swiper-slide" src="./img/technologies/tech3.png" alt="">
+                        <img class="technologies__item swiper-slide" src="./img/technologies/tech4.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Steps Build -->
+        <section class="steps margin">
+            <div class="container-xl">
+                <div class="row margin">
+                    <!-- Desktop -->
+                    <div class="steps__desktop section-style__desktop">
+                        <div class="row align-items-center">
+                            <div class="col">
+                                <div class="steps__top">
+                                    <h2 class="steps__title h2">HOW WE BUILD</h2>
+                                    <div class="d-flex align-items-center">
+                                        <h2 class="steps__subtitle section-style__subtitle h2">WITH HYDRA VR?</h2>
+                                        <img class="steps__line section-style__line" src="./img/icons/section-lines.svg"
+                                            alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="steps__bottom">
+                                    <p class="steps__description section-style__description">
+                                        Vitae sapien pellentesque habitant morbi
+                                        tristique senectus et netus et. Feugiat
+                                        nibh sed pulvinar proin gravida hendrerit lectus. Mi sit amet mauris commodo
+                                        quis imperdiet massa tincidunt nunc. Viverra aliquet eget sit amet tellus.
+                                        Ornare
+                                        lectus sit amet est placerat in. Lectus magna fringilla urna porttitor rhoncus
+                                        vitae.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Mobile -->
+                    <div class="steps__mobile section-style__mobile">
+                        <div class="row">
+                            <div class="steps__mobile_txt d-flex flex-column align-items-center"></div>
+                            <h2 class="steps__mobile_title h2 text-center">WHY BUILD</h2>
+                            <h2 class="steps__mobile_subtitle h2 text-center section-style__mobile_subtitle">WITH
+                                HYDRA?</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="steps__grid">
+                    <img class="steps__bg" src="./img/steps/steps-bg.png" alt="">
+
+                    <div class="steps__item d-flex flex-column align-items-center">
+                        <img class="steps__img" src="./img/steps/step1.png" alt="">
+                        <h4 class="h4 text-center">3D Conception <br> & Design</h4>
+                    </div>
+
+                    <div class="steps__item d-flex flex-column align-items-center">
+                        <img class="steps__img" src="./img/steps/step2.png" alt="">
+                        <h4 class="h4 text-center">Interaction <br> Design</h4>
+                    </div>
+
+                    <div class="steps__item d-flex flex-column align-items-center">
+                        <img class="steps__img" src="./img/steps/step3.png" alt="">
+                        <h4 class="h4 text-center">VR World <br> User Testing</h4>
+                    </div>
+
+                    <div class="steps__item d-flex flex-column align-items-center">
+                        <img class="steps__img" src="./img/steps/step4.png" alt="">
+                        <h4 class="h4 text-center">Hydra VR <br> Deploy </h4>
+                    </div>
+                </div>
+
+                <div class="swiper stepsSwiper steps__swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide steps__item d-flex flex-column align-items-center">
+                            <img class="steps__img" src="./img/steps/step1.png" alt="">
+                            <h4 class="h4 text-center">3D Conception <br> & Design</h4>
+                        </div>
+
+                        <div class="swiper-slide steps__item d-flex flex-column align-items-center">
+                            <img class="steps__img" src="./img/steps/step2.png" alt="">
+                            <h4 class="h4 text-center">Interaction <br> Design</h4>
+                        </div>
+
+                        <div class="swiper-slide steps__item d-flex flex-column align-items-center">
+                            <img class="steps__img" src="./img/steps/step3.png" alt="">
+                            <h4 class="h4 text-center">VR World <br> User Testing</h4>
+                        </div>
+
+                        <div class="swiper-slide steps__item d-flex flex-column align-items-center">
+                            <img class="steps__img" src="./img/steps/step4.png" alt="">
+                            <h4 class="h4 text-center">Hydra VR <br> Deploy </h4>
+                        </div>
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="cta margin">
+            <div class="container-xl">
+                <form class="form">
+                    <h3 class="form__title h3">JOIN HYDRA</h3>
+                    <img class="form__border" src="./img/icons/form-title-border.svg" alt="">
+                    <h3 class="form__subtile h3">Let's Build Your VR Experience</h3>
+
+                    <div class="form__grid_top">
+                        <input class="form__input" type="text" placeholder="First Name">
+                        <input class="form__input" type="text" placeholder="Last Name">
+                        <input class="form__input" type="email" placeholder="Email">
+                        <input class="form__input" type="number" placeholder="Phone Number">
+                    </div>
+
+                    <div class="form__grid_bottom">
+                        <input class="form__input" type="text" placeholder="Subject">
+                        <textarea class="form__input form__input-textarea"
+                            placeholder="Tell Us Something..."></textarea>
+                    </div>
+
+                    <button class="form__btn">SEND TO HYDRA</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container-xl">
+            <img class="footer__bg" src="./img/footer/footer-bg.png" alt="">
+
+            <div class="row footer__row">
+                <div class="col">
+                    <div class="footer__logo">
+                        <img src="./img/main/Logo.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="footer__nav">
+                        <ul class="footer__nav-list">
+                            <li class="footer__nav-item">
+                                <a class="footer__nav-link" href="#!">ABOUT</a>
+                            </li>
+
+                            <li class="footer__nav-item">
+                                <a class="footer__nav-link" href="#!">SERVICES</a>
+                            </li>
+
+                            <li class="footer__nav-item">
+                                <a class="footer__nav-link" href="#!">TECHNOLOGIES</a>
+                            </li>
+
+                            <li class="footer__nav-item">
+                                <a class="footer__nav-link" href="#!">HOW TO</a>
+                            </li>
+
+                            <li class="footer__nav-item">
+                                <a class="footer__nav-link" href="#!">JOIN HYDRA</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="footer__faq">
+                        <ul class="footer__faq-list">
+                            <li class="footer__faq-item">
+                                <a class="footer__faq-link" href="#!">F.A.Q</a>
+                            </li>
+
+                            <li class="footer__faq-item">
+                                <a class="footer__faq-link" href="#!">SITEMAP</a>
+                            </li>
+
+                            <li class="footer__faq-item">
+                                <a class="footer__faq-link" href="#!">CONDITIONS</a>
+                            </li>
+
+                            <li class="footer__faq-item">
+                                <a class="footer__faq-link" href="#!">LICENSES</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="footer__social">
+                        <div class="footer__social-title">SOCIALIZE WITH HYDRA</div>
+
+                        <div class="footer__social-box">
+                            <img src="./img/footer/facebook.svg" alt="">
+                            <img src="./img/footer/instagram.svg" alt="">
+                            <img src="./img/footer/youtube.svg" alt="">
+                            <img src="./img/footer/linkedin.svg" alt="">
+                            <img src="./img/footer/pinterest.svg" alt="">
+                            <img src="./img/footer/twitter.svg" alt="">
+                        </div>
+
+                        <button class="footer__social-btn">BUILD YOUR WORLD</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+<!-- Swiper JS -->
+<script src="./js/swiper-bundle.min.js"></script>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+</script>
+
+<!-- JS -->
+<script src="./js/js.js"></script>
+
+</html>

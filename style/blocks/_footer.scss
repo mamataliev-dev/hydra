@@ -96,9 +96,15 @@
         @media(max-wdith: 390px) {
             margin-bottom: 30px;
         }
+
+        @media(max-width: 768px) {
+            column-gap: 15px;
+        }
     }
 
     &-btn {
+        max-width: 250px;
+
         font-size: 12px;
         font-weight: 700;
         color: $violet;

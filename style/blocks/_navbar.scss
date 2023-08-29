@@ -148,14 +148,14 @@
     transition: all .5s ease;
     z-index: 10;
 
-    width: 300px;
+    width: 320px;
     height: 100vh;
-    padding: 90px 30px 0px 20px;
+    padding: 100px 30px 0px 20px;
     background: $btn-bg;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
 
-    row-gap: 20px;
+    row-gap: 25px;
 
     &-img {
         position: absolute;
@@ -164,7 +164,7 @@
     }
 
     &-link {
-        font-size: 24px;
+        font-size: 30px;
         font-weight: bold;
 
         &:active,
@@ -175,18 +175,18 @@
     }
 
     &-btns {
-        row-gap: 20px;
+        row-gap: 25px;
         padding: 20px 0px 0px 0px;
         border-top: 1px solid $white;
     }
 
     &-btn-contact {
-        font-size: 24px;
+        font-size: 30px;
         font-weight: bold;
     }
 
     &-btn-join {
-        font-size: 24px;
+        font-size: 30px;
         font-weight: bold;
         color: $white;
     }
